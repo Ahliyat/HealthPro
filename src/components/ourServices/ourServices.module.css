@@ -1,0 +1,19 @@
+.servicesContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+.servicesContainer h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.imgContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.serviceImg{
+    width: 30%;
+}

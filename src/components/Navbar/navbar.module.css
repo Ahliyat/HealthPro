@@ -1,0 +1,45 @@
+.navBarContainer{
+    display: flex;
+   justify-content: space-between;
+   padding: 2rem;
+}
+.logoContainer{
+    width: 15%;
+}
+.logo{
+    width: 100%;
+    height: auto;
+}
+.navItems{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+}
+.navbarBtn{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.navbarBtn1{
+  width: 125px;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700; 
+    box-shadow: 0px 4px 4px 0px #00000040 inset;
+
+}
+.navbarBtn2{
+    width: 125px;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700; 
+    background: linear-gradient(68.08deg, #52a3c6 9.64%, #758d93 92.49%);
+
+}

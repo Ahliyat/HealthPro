@@ -1,0 +1,46 @@
+.footerContainer{
+padding: 2rem;
+}
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.logoContainer{
+    width: 15%;
+}
+.logo{
+    width: 100%;
+    height: auto;
+}
+.footerItem{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footerLinks{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+.footerHours{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+.footerLine{
+margin: 1rem;
+height: 7px;
+border: 1px solid #8b8989;
+background: #8b8989;
+}
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+.contactContent{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}

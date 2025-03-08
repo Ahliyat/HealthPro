@@ -1,0 +1,23 @@
+.heroContainer{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+.leftHeroContainer{
+   width:  45%;
+   gap: 3rem;
+}
+.leftHeroHeading{
+    font-size: 4.7rem;
+}
+.leftHeroText{
+    font-size: 20px;
+    width: 80%;
+}
+.rightHeroContainer{
+    width: 55%;
+}
+.heroImg{
+    width: 100%;
+    border-radius: 5%;
+}

@@ -1,0 +1,32 @@
+.doctorsContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+.doctorsContainer h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.doctorsContent{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+ flex-wrap: wrap;
+}
+.eachDoctor{
+    display: flex;
+    /* align-items: center; */
+    width: 20%;
+    gap: 1.5rem;
+}
+.doctorsName h4{
+    font-size: 20px;
+}
+.doctorsImg{
+    width: 50%;
+    border-radius: 50%;
+    height: 130%;
+}
