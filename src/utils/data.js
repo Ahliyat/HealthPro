@@ -56,12 +56,12 @@ export const NavbarData = [
   },
   {
     id: 3,
-    path: "/",
+    path: "/Services",
    Text: "Services",
   },
   {
     id: 4,
-    path: "/",
+    path: "/Aboutus",
   Text: "About us",
   },
   {
