@@ -1,7 +1,7 @@
 .navBarContainer{
     display: flex;
    justify-content: space-between;
-   padding: 2rem;
+   padding: 3rem;
 }
 .logoContainer{
     width: 15%;

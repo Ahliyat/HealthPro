@@ -51,7 +51,7 @@ export const NavbarData = [
   },
   {
     id: 2,
-    path: "/",
+    path: "/Appointments",
     Text: "Appointments",
   },
   {

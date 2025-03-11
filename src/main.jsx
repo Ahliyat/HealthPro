@@ -9,6 +9,7 @@ import Login from "./pages/Login/Login.jsx";
 import Layout from "./pages/Layout/Layout.jsx";
 import NotFound from "./pages/Error/NotFound.jsx";
 import Aboutus from "./pages/Aboutus/Aboutus.jsx";
+import Appointments from "./pages/Appointment/Appointments.jsx";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/Aboutus",
         element: <Aboutus />,
+      },
+      {
+        path: "/Appointments",
+        element: <Appointments />,
       },
     
     ],

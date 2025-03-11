@@ -3,7 +3,7 @@
     flex-direction: column;
     padding: 5rem;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 .messageContainer h1{
 font-size: 30px;

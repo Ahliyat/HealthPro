@@ -1,7 +1,7 @@
 .bioContainer{
     display: flex;
     align-items: center;
-    padding: 2rem;
+    padding: 3rem;
     gap:5rem;
 }
 .leftBioContainer{
@@ -31,8 +31,8 @@
     border-radius: 10px;
 }
 .bioBtn{
-    width: 110px;
-    height: 40px;
+    align-self: start;
+    padding: .7rem 1rem;
     border-radius: 10px;
     border: none;
     font-size: 16px;
