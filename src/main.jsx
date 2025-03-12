@@ -10,7 +10,7 @@ import Layout from "./pages/Layout/Layout.jsx";
 import NotFound from "./pages/Error/NotFound.jsx";
 import Aboutus from "./pages/Aboutus/Aboutus.jsx";
 import Appointments from "./pages/Appointment/Appointments.jsx";
-
+import Dashboard from "./pages/Dashboard/Dashboard.jsx"
 const router = createBrowserRouter([
   {
     path: "/",
@@ -36,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/Appointments",
         element: <Appointments />,
+      },
+      {
+        path: "/Dashboard",
+        element: <Dashboard />,
       },
     ],
   },

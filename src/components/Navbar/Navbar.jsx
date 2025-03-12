@@ -22,7 +22,7 @@ const Navbar = () => {
         </ul>
         <div className={styles.navbarBtn}>
         <Button type="button" className={styles.navbarBtn1}>
-       Sign in
+        <Link to="/SignIn"> Sign in</Link>
           </Button>
         <Button type="button" className={styles.navbarBtn2}>
    <Link to="/Register">Register</Link>
