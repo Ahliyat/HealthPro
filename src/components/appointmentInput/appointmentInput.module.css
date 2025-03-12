@@ -39,14 +39,19 @@
   gap: 3rem;
 }
 .threeInputs input {
-  padding: 1rem 16.8rem 1rem 2rem;
+  padding: 1rem 16.1rem 1rem 2rem;
   border-radius: 10px;
   border: 8px solid #9e9e9e;
 }
 .threeInputs select {
-  padding: 1rem 16.8rem 1rem 2rem;
+  padding: 1rem 16.1rem 1rem 2rem;
   border-radius: 10px;
   border: 8px solid #9e9e9e;
+}
+.placeholder {
+  font-size: 20px;
+  opacity: 80%;
+  
 }
 
 .oneInput {

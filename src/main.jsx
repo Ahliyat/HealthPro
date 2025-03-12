@@ -5,7 +5,7 @@ import "./index.module.css";
 import App from "./App.jsx";
 import LandingPage from "./pages/LandingPage/LandingPage.jsx";
 import Register from "./pages/Register/Register.jsx";
-import Login from "./pages/Login/Login.jsx";
+import SignIn from "./pages/SignIn/SignIn.jsx"
 import Layout from "./pages/Layout/Layout.jsx";
 import NotFound from "./pages/Error/NotFound.jsx";
 import Aboutus from "./pages/Aboutus/Aboutus.jsx";
@@ -26,8 +26,8 @@ const router = createBrowserRouter([
         element: <Register />,
       },
       {
-        path: "/Login",
-        element: <Login />,
+        path: "/SignIn",
+        element: <SignIn />,
       },
       {
         path: "/Aboutus",
@@ -37,7 +37,6 @@ const router = createBrowserRouter([
         path: "/Appointments",
         element: <Appointments />,
       },
-    
     ],
   },
 ]);

@@ -3,9 +3,9 @@ import Button from "../button/Button";
 import styles from "./appointmentInput.module.css";
 const AppointmentInput = () => {
   return (
-  
       <section className={styles.appointmentContainer}>
         <h1>Appointment</h1>
+        
         <form className={styles.appointmentInputContainer}>
           <div className={styles.twoInputs}>
             <input type="text" placeholder="First Name" />
@@ -20,7 +20,7 @@ const AppointmentInput = () => {
             <input type="text" placeholder="Date Of Birth " />
           </div>
           <div className={styles.threeInputs}>
-            <select id="gender" name="Gender">
+            <select id="gender" className={styles.placeholder} name="Gender">
               <option value="" disabled selected>
                 Gender
               </option>

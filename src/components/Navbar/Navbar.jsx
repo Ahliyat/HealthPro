@@ -25,7 +25,7 @@ const Navbar = () => {
        Sign in
           </Button>
         <Button type="button" className={styles.navbarBtn2}>
-       Register
+   <Link to="/Register">Register</Link>
           </Button>
         </div>
       
