@@ -1,0 +1,54 @@
+.dashboardNavContainer {
+  display: flex;
+  align-items: center;
+  padding:  1.2rem 3rem;
+  background-color: #ffffff;
+ position: absolute;
+ right: 0;
+ top: 0;
+  width: 92%;
+  justify-content: space-between;
+
+}
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+.searchIcon{
+    opacity: 50%;
+}
+.searchInput{
+    border: none;
+    padding: 1rem 7rem .7rem .7rem;
+    border-radius: 10px;
+}
+.searchInput:hover{
+border: .1px solid #9e9e9e;
+}
+.logoContainer{
+    width: 27%;
+}
+
+.logo{
+    width: 50%;
+    height: auto;
+}
+
+.profileContainer{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    text-align: right;
+}
+
+
+.profileImg{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}

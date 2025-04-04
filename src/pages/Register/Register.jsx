@@ -1,7 +1,7 @@
 import styles from "./register.module.css";
 import Button from "../../components/button/Button";
-import Navbar from "../../components/navbar/Navbar";
-import React from 'react'
+import Navbar from "../../components/Navbar/Navbar";
+import React from "react";
 import Hero from "../../components/hero/Hero";
 import Footer from "../../components/footer/Footer";
 import { Link } from "react-router-dom";
@@ -9,12 +9,15 @@ import { Link } from "react-router-dom";
 const Register = () => {
   return (
     <div>
-      <Navbar/>
-      <Hero/>
+      <Navbar />
+      <Hero />
       <section className={styles.registerContainer}>
         <h1>Sign Up</h1>
         <h3>Please Sign Up To Continue</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim soluta ut modi ducimus cumque consectetur.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim soluta
+          ut modi ducimus cumque consectetur.
+        </p>
         <form className={styles.registerInputContainer}>
           <div className={styles.twoInputs}>
             <input type="text" placeholder="First Name" />
@@ -35,7 +38,7 @@ const Register = () => {
           />
           <div className={styles.threeInputs}>
             <select id="gender" className={styles.placeholder} name="Gender">
-              <option  value="" disabled selected>
+              <option value="" disabled selected>
                 Gender
               </option>
               <option value="male">Male</option>
@@ -50,12 +53,12 @@ const Register = () => {
           </div>
         </form>
         <Button className={styles.registerBtn}>
-        <Link to="/SignIn">Register</Link>
+          <Link to="/SignIn">Register</Link>
         </Button>
       </section>
-      <Footer/>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Register
+export default Register;

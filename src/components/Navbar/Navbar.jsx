@@ -7,7 +7,7 @@ import { NavbarData } from '../../utils/data';
 import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
-        <section className={styles.navBarContainer}>
+       <section className={styles.navBarContainer}> 
           <div className={styles.logoContainer}>
           <img className={styles.logo} src={Logo} alt="healthpro logo " />
           </div>

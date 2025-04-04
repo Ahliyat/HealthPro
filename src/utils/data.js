@@ -1,53 +1,19 @@
+import {
+  FaBriefcaseMedical,
+  FaHouseMedical,
+  FaUserInjured,
+  FaFileMedical
+} from "react-icons/fa6";
+import { AiFillDashboard } from "react-icons/ai";
+import { IoPeople } from "react-icons/io5";
+import { FaHome } from "react-icons/fa";
+import { BiSolidInjection } from "react-icons/bi";
 
-export const cardData = [
-  {
-    id: 1,
-    img: "/popularCar1.png",
-    title: "Audi A8 L 2022",
-    text: "/day",
-    number: "78.90",
-  },
-  {
-    id: 2,
-    img: "/popularCar2.png",
-    title: "Nissan Maxima Platinum 2022",
-    text: "/day",
-    number: "78.90",
-  },
-  {
-    id: 3,
-    img: "/popularCar3.png",
-    title: "Porsche Cayenne GTS 2022",
-    text: "/day",
-    number: "78.90",
-  },
-  {
-    id: 4,
-    img: "/popularCar4.png",
-    title: "BMW M8 Coupe 2022",
-    text: "/day",
-    number: "78.90",
-  },
-  {
-    id: 5,
-    img: "/popularCar5.png",
-    title: "BMW X7 M5Oi 2022",
-    text: "/day",
-    number: "78.90",
-  },
-  {
-    id: 6,
-    img: "/popularCar6.png",
-    title: "Porsche Cayenne GTS 2022",
-    text: "/day",
-    number: "78.90",
-  },
-];
 export const NavbarData = [
   {
     id: 1,
     path: "/",
-  Text: "Home",
+    Text: "Home",
   },
   {
     id: 2,
@@ -56,18 +22,97 @@ export const NavbarData = [
   },
   {
     id: 3,
-    path: "/Services",
-   Text: "Services",
+    path: "#OurServices",
+    Text: "Services",
   },
   {
     id: 4,
     path: "/Aboutus",
-  Text: "About us",
+    Text: "About us",
   },
   {
     id: 5,
-    path: "/",
-  Text: "Contact us",
+    path: "#ContactUs",
+    Text: "Contact us",
   },
 ];
+
+export const SidebarData = [
+  {
+    id: 1,
+    path: "/Dashboard",
+    Text: "Dashboard",
+    icon: AiFillDashboard,
+  },
+  {
+    id: 2,
+    path: "/StaffDashboard",
+    Text: "Staff",
+    icon: IoPeople,
+  },
+  {
+    id: 3,
+    path: "/AppointmentsDashboard",
+    Text: "Appointments",
+    icon: FaFileMedical,
+  },
+  {
+    id: 4,
+    path: "/Lab",
+    Text: "Lab",
+    icon: FaBriefcaseMedical,
+  },
+  {
+    id: 5,
+    path: "/Ward",
+    Text: "Ward",
+    icon: FaHome,
+  },
+  {
+    id: 6,
+    path: "/Treatment",
+    Text: "Treatment",
+    icon: BiSolidInjection,
+  },
+  {
+    id: 7,
+    path: "/Pharmacy",
+    Text: "Pharmacy",
+    icon: FaHouseMedical,
+  },
+  {
+    id: 8,
+    path: "/Patient",
+    Text: "Patient",
+    icon: FaUserInjured,
+  },
+];
+
+export const DashboardCard1Data = [
+  {
+    id: 1,
+    Text: "Total Patient",
+    Number: 20,
+    icon: FaUserInjured,
+  },
+  {
+    id: 2,
+    Text: "Total Doctors",
+    Number: 20,
+    icon: BiSolidInjection,
+  },
+  {
+    id: 3,
+    Text: "Total Wards",
+    Number: 20,
+    icon: FaHome,
+  },
+  {
+    id: 4,
+    Text: "Total Labs",
+    Number: 20,
+    icon: FaBriefcaseMedical,
+  },
+];
+
 

@@ -1,0 +1,26 @@
+.outOfStockContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    margin: 2rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+    gap: 0.5rem;
+  }
+  .outOfStockContent {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .outOfStockLine1 {
+    background: #c4c4c440;
+    text-align: left;
+  }
+  .outOfStockContent th,
+  .outOfStockContent td {
+    padding: 18px;
+  }
+  .outOfStockContent  tr:nth-child(even) {
+    background-color: #f0f0f09e;
+  }
+  

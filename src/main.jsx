@@ -6,11 +6,13 @@ import App from "./App.jsx";
 import LandingPage from "./pages/LandingPage/LandingPage.jsx";
 import Register from "./pages/Register/Register.jsx";
 import SignIn from "./pages/SignIn/SignIn.jsx"
-import Layout from "./pages/Layout/Layout.jsx";
+import Layout from "./pages/layout/Layout.jsx";
 import NotFound from "./pages/Error/NotFound.jsx";
 import Aboutus from "./pages/Aboutus/Aboutus.jsx";
 import Appointments from "./pages/Appointment/Appointments.jsx";
 import Dashboard from "./pages/Dashboard/Dashboard.jsx"
+import OurServices from "./components/ourServices/OurServices.jsx";
+import StaffDashboard from "./pages/StaffDashboard/StaffDashboard.jsx"
 const router = createBrowserRouter([
   {
     path: "/",
@@ -40,6 +42,14 @@ const router = createBrowserRouter([
       {
         path: "/Dashboard",
         element: <Dashboard />,
+      },
+      {
+        path: "/StaffDashboard",
+        element: <StaffDashboard/>,
+      },
+      {
+        path: "#OurServices",
+        element: <OurServices />,
       },
     ],
   },

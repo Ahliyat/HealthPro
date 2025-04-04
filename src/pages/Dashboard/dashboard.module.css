@@ -1,0 +1,42 @@
+.dashboardContainer{
+    display: flex;
+    background-color: #C4C4C438;
+    border-radius: 3rem;
+}
+.dashboardBody{
+    width: 86%;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+.dashboardCards1{
+    padding: 1rem 4rem;
+    display: flex;
+    gap: 5rem;
+width: 100%;
+}
+.dashboardCard1{
+    display: flex;
+    gap: 1.4rem;
+    background-color: #ffffff;
+    height: 120px;
+    /* align-items: center; */
+    border-radius: 15px;
+    padding: 1.2rem  2rem;
+width: 20%;
+}
+.dashboardCard1Icon{
+font-size: 3rem;
+}
+
+.dashboardcard1Text{
+font-size: 20px;
+font-weight: 700;
+display: flex;
+flex-direction: column;
+gap: .5rem;
+}
+
+.dashboardcard1Text h4{
+    width: 50%;
+}
