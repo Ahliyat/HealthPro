@@ -2,7 +2,8 @@ import {
   FaBriefcaseMedical,
   FaHouseMedical,
   FaUserInjured,
-  FaFileMedical
+  FaFileMedical,
+  FaFileInvoice
 } from "react-icons/fa6";
 import { AiFillDashboard } from "react-icons/ai";
 import { IoPeople } from "react-icons/io5";
@@ -85,6 +86,12 @@ export const SidebarData = [
     path: "/Patient",
     Text: "Patient",
     icon: FaUserInjured,
+  },
+  {
+    id: 9,
+    path: "/Invoice",
+    Text: "Invoice",
+    icon: FaFileInvoice,
   },
 ];
 
