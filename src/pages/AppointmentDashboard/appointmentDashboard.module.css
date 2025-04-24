@@ -1,0 +1,154 @@
+.appointmentDashboardContainer {
+    display: flex;
+    background-color: #c4c4c438;
+    border-radius: 3rem;
+  }
+  
+  .appointmentDashboardBody {
+    width: 86%;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .appointmentDashboardBody h2 {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 0.7rem 1.5rem;
+    border-radius: 15px;
+  }
+  .appointmentDashboardInput {
+    background-color: white;
+    padding: 2rem 1rem;
+    margin: 0.7rem 1.5rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .inputPartOne {
+    display: flex;
+    justify-content: space-between;
+  }
+  .inputPartOne Button {
+    padding: 0.5rem 2rem;
+    border-radius: 15px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+  }
+  .reportBtn {
+    background: linear-gradient(68.08deg, #52a3c6 9.64%, #758d93 92.49%);
+  }
+  .searchBtn {
+    background: linear-gradient(68.08deg, #c6b452 9.64%, #9e9866 92.49%);
+  }
+  .inputPartOne input {
+    padding: 1rem 16rem 1rem 2rem;
+    border-radius: 9px;
+    border: 6px solid #9e9e9e;
+  }
+  .babyForm {
+    display: flex;
+    gap: 0.7rem;
+  }
+  
+  .inputPartTwo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .inputPartTwo input {
+    padding: 1rem 25rem 1rem 2rem;
+    border-radius: 9px;
+    border: 6px solid #9e9e9e;
+  }
+  .inputPartTwo select {
+    padding: 1rem 25rem 1rem 2rem;
+    border-radius: 9px;
+    border: 6px solid #9e9e9e;
+  }
+  .threeInputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+  }
+  .threeInputs input {
+    padding: 1rem 11.7rem 1rem 2rem;
+    border-radius: 9px;
+    border: 6px solid #9e9e9e;
+  }
+  .threeInputs select {
+    padding: 1rem 11.7rem 1rem 2rem;
+    border-radius: 9px;
+    border: 6px solid #9e9e9e;
+  }
+  .placeholder {
+    font-size: 20px;
+    color: #9e9e9e;
+  }
+  .placeholder {
+    font-size: 20px;
+    opacity: 80%;
+  }
+  .address {
+      border-radius: 10px;
+      border: 8px solid #9e9e9e;
+      padding: 0.8rem 70rem 7rem 1.5rem;
+  }
+  .inputPartEight{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 7rem;
+  }
+  .greenButton {
+      background: linear-gradient(68.08deg, #55a345 9.64%, #c7d74d 92.49%);
+      padding: 1rem 2.5rem;
+      border-radius: 15px;
+      font-size: 16px;
+      border: none;
+      color: #fff;
+  }
+  .purpleButton {
+      background: linear-gradient(68.08deg, #6945a3 9.64%, #7b4dd7 92.49%);
+      padding: 1rem 2.5rem;
+      border-radius: 15px;
+      font-size: 16px;
+      border: none;
+      color: #fff;
+  }
+  .redButton {
+      background: linear-gradient(68.08deg, #fa0202 9.64%, #903930 92.49%);
+      padding: 1rem 2.5rem;
+      border-radius: 15px;
+      font-size: 16px;
+      border: none;
+      color: #fff;
+  }
+  .recentAppointmentsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    margin: 2rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+    gap: 0.5rem;
+  }
+  .recentAppointmentsContent {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .recentAppoitmentsLine1{
+    background-color: #c4c4c440;
+    text-align: left;
+  }
+  .recentAppointmentsContent th,
+  .recentAppointmentsContent td {
+    padding: 18px;
+  }
+  .recentAppointmentsContent  tr:nth-child(even) {
+    background-color: #f0f0f09e;
+  }
+ 

@@ -3,7 +3,7 @@ import {
   FaHouseMedical,
   FaUserInjured,
   FaFileMedical,
-  FaFileInvoice
+  FaFileInvoice,
 } from "react-icons/fa6";
 import { AiFillDashboard } from "react-icons/ai";
 import { IoPeople } from "react-icons/io5";
@@ -53,7 +53,7 @@ export const SidebarData = [
   },
   {
     id: 3,
-    path: "/AppointmentsDashboard",
+    path: "/AppointmentDashboard",
     Text: "Appointments",
     icon: FaFileMedical,
   },
@@ -121,5 +121,3 @@ export const DashboardCard1Data = [
     icon: FaBriefcaseMedical,
   },
 ];
-
-

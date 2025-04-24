@@ -13,6 +13,7 @@ import Appointments from "./pages/Appointment/Appointments.jsx";
 import Dashboard from "./pages/Dashboard/Dashboard.jsx"
 import OurServices from "./components/ourServices/OurServices.jsx";
 import StaffDashboard from "./pages/StaffDashboard/StaffDashboard.jsx"
+import AppointmentDashboard from "./pages/AppointmentDashboard/AppointmentDashboard.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "/StaffDashboard",
         element: <StaffDashboard/>,
+      },
+      {
+        path: "/AppointmentDashboard",
+        element: <AppointmentDashboard/>,
       },
       {
         path: "#OurServices",

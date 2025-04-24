@@ -13,7 +13,7 @@ const StaffDashboard = () => {
         <h2>Staff Management</h2>
         <section className={styles.staffDashboardInput}>
           <div className={styles.inputPartOne}>
-            <Button className={styles.reportBtn}>General Report</Button>
+            <Button className={styles.reportBtn}>Generate Report</Button>
             <form className={styles.babyForm}>
               <input placeholder="ID" type="number" />
               <Button className={styles.searchBtn}> Search</Button>
